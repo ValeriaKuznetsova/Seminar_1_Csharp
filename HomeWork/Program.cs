@@ -3,16 +3,16 @@
 // Задача 2.
 // Программа, получающая на вводе два числа, а на выходе показывающая максимальное значение
 
-// Console.Write("Enter the number1:"); //Консоль пишет:
-// int number1 = Convert.ToInt32( Console.ReadLine()); //Консоль считывает введённое число
-// Console.Write("Enter the number2:"); //после этого консоль запрашивает второе число
-// int number2 = Convert.ToInt32( Console.ReadLine()); //Вводим второе
-// if(number1 >= number2)
-// {
-// Console.WriteLine("The max number is:" + number1);
-// }
-// else
-// Console.WriteLine("The max number is:" + number2);
+Console.Write("Enter the number1:"); 
+int number1 = Convert.ToInt32( Console.ReadLine()); 
+Console.Write("Enter the number2:"); 
+int number2 = Convert.ToInt32( Console.ReadLine()); 
+if(number1 >= number2)
+{
+Console.WriteLine("The max number is:" + number1);
+}
+else
+Console.WriteLine("The max number is:" + number2);
 
 // Задача 4
 // Нахождение максимального числа из трёх чисел
